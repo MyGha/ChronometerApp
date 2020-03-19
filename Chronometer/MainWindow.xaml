@@ -1,0 +1,16 @@
+﻿<Window x:Class="Chronometer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chronometer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="805.613">
+    <Grid HorizontalAlignment="Left" Width="806" Margin="0,0,-8,0">
+        <Button Content="Start" HorizontalAlignment="Center" Margin="213,283,453,0" VerticalAlignment="Top" Width="100" Height="40" Click="ButtonStart_Click" FontSize="20" FontWeight="Bold" ClickMode="Release"/>
+        <Button Content="Pause" HorizontalAlignment="Center" Margin="332,283,328,0" VerticalAlignment="Top" Width="100" Height="40" Click="ButtonPause_Click" FontSize="20" FontWeight="Bold" ClickMode="Release"/>
+        <Button Content="Stop" HorizontalAlignment="Center" Margin="458,283,208,0" VerticalAlignment="Top" Width="100" Height="40" Click="ButtonStop_Click" FontSize="20" FontWeight="Bold" ClickMode="Release"/>
+        <Label x:Name="LabelChronometer" Content="00:00:00" HorizontalAlignment="Left" VerticalAlignment="Center" Width="214" FontSize="50" FontStretch="Normal" FontWeight="Bold" HorizontalContentAlignment="Right" Margin="300,171,0,171"/>
+
+    </Grid>
+</Window>
